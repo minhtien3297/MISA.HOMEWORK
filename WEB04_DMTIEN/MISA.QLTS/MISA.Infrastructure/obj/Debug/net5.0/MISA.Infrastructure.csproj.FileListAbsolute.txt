@@ -1,0 +1,15 @@
+H:\MISA\MISA.Web2021_04\WEB04_DMTIEN\MISA.QLTS\MISA.Infrastructure\bin\Debug\net5.0\MISA.Infrastructure.deps.json
+H:\MISA\MISA.Web2021_04\WEB04_DMTIEN\MISA.QLTS\MISA.Infrastructure\bin\Debug\net5.0\MISA.Infrastructure.dll
+H:\MISA\MISA.Web2021_04\WEB04_DMTIEN\MISA.QLTS\MISA.Infrastructure\bin\Debug\net5.0\ref\MISA.Infrastructure.dll
+H:\MISA\MISA.Web2021_04\WEB04_DMTIEN\MISA.QLTS\MISA.Infrastructure\bin\Debug\net5.0\MISA.Infrastructure.pdb
+H:\MISA\MISA.Web2021_04\WEB04_DMTIEN\MISA.QLTS\MISA.Infrastructure\bin\Debug\net5.0\MISA.Core.dll
+H:\MISA\MISA.Web2021_04\WEB04_DMTIEN\MISA.QLTS\MISA.Infrastructure\bin\Debug\net5.0\MISA.Core.pdb
+H:\MISA\MISA.Web2021_04\WEB04_DMTIEN\MISA.QLTS\MISA.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.csprojAssemblyReference.cache
+H:\MISA\MISA.Web2021_04\WEB04_DMTIEN\MISA.QLTS\MISA.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+H:\MISA\MISA.Web2021_04\WEB04_DMTIEN\MISA.QLTS\MISA.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.AssemblyInfoInputs.cache
+H:\MISA\MISA.Web2021_04\WEB04_DMTIEN\MISA.QLTS\MISA.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.AssemblyInfo.cs
+H:\MISA\MISA.Web2021_04\WEB04_DMTIEN\MISA.QLTS\MISA.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.csproj.CoreCompileInputs.cache
+H:\MISA\MISA.Web2021_04\WEB04_DMTIEN\MISA.QLTS\MISA.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.csproj.CopyComplete
+H:\MISA\MISA.Web2021_04\WEB04_DMTIEN\MISA.QLTS\MISA.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.dll
+H:\MISA\MISA.Web2021_04\WEB04_DMTIEN\MISA.QLTS\MISA.Infrastructure\obj\Debug\net5.0\ref\MISA.Infrastructure.dll
+H:\MISA\MISA.Web2021_04\WEB04_DMTIEN\MISA.QLTS\MISA.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.pdb

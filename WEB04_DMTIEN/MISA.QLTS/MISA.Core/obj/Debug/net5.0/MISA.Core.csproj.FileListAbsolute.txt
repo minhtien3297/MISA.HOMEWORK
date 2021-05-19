@@ -1,0 +1,12 @@
+H:\MISA\MISA.Web2021_04\WEB04_DMTIEN\MISA.QLTS\MISA.Core\bin\Debug\net5.0\MISA.Core.deps.json
+H:\MISA\MISA.Web2021_04\WEB04_DMTIEN\MISA.QLTS\MISA.Core\bin\Debug\net5.0\MISA.Core.dll
+H:\MISA\MISA.Web2021_04\WEB04_DMTIEN\MISA.QLTS\MISA.Core\bin\Debug\net5.0\ref\MISA.Core.dll
+H:\MISA\MISA.Web2021_04\WEB04_DMTIEN\MISA.QLTS\MISA.Core\bin\Debug\net5.0\MISA.Core.pdb
+H:\MISA\MISA.Web2021_04\WEB04_DMTIEN\MISA.QLTS\MISA.Core\obj\Debug\net5.0\MISA.Core.csprojAssemblyReference.cache
+H:\MISA\MISA.Web2021_04\WEB04_DMTIEN\MISA.QLTS\MISA.Core\obj\Debug\net5.0\MISA.Core.GeneratedMSBuildEditorConfig.editorconfig
+H:\MISA\MISA.Web2021_04\WEB04_DMTIEN\MISA.QLTS\MISA.Core\obj\Debug\net5.0\MISA.Core.AssemblyInfoInputs.cache
+H:\MISA\MISA.Web2021_04\WEB04_DMTIEN\MISA.QLTS\MISA.Core\obj\Debug\net5.0\MISA.Core.AssemblyInfo.cs
+H:\MISA\MISA.Web2021_04\WEB04_DMTIEN\MISA.QLTS\MISA.Core\obj\Debug\net5.0\MISA.Core.csproj.CoreCompileInputs.cache
+H:\MISA\MISA.Web2021_04\WEB04_DMTIEN\MISA.QLTS\MISA.Core\obj\Debug\net5.0\MISA.Core.dll
+H:\MISA\MISA.Web2021_04\WEB04_DMTIEN\MISA.QLTS\MISA.Core\obj\Debug\net5.0\ref\MISA.Core.dll
+H:\MISA\MISA.Web2021_04\WEB04_DMTIEN\MISA.QLTS\MISA.Core\obj\Debug\net5.0\MISA.Core.pdb

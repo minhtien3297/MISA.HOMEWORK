@@ -1,0 +1,28 @@
+ /* content header */
+ .insert-form .form-content .content-header{
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+    /* content header title */
+    .insert-form .form-content .content-header .content-title{
+        font-size: 30px;
+        margin: 24px;
+    }
+
+    /* content header close button */
+    .insert-form .form-content .content-header .content-close-button{
+        position: absolute;
+        top: 0;
+        right: 0;
+        border: none;
+        outline: none;
+        background-color: #ffffff;
+    }
+
+    /* hiệu ứng làm bút thoát màu xám */
+    .insert-form .form-content .content-header .content-close-button:hover{
+        background-color: #bbb;
+        cursor: pointer;
+    }

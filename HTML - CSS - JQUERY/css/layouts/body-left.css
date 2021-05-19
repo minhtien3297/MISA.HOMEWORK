@@ -1,0 +1,12 @@
+@import url('/css/components/layout/sidebar.css');
+@import url('/css/components/layout/menu.css');
+
+/* body left */
+.body-left {
+    background-color: #ffffff;
+    width: 226px;
+    height: 100%;
+    border-right: 1px solid #bbbbbb;
+    display: flex;
+    flex-direction: column;
+  }

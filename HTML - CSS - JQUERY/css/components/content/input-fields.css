@@ -1,0 +1,47 @@
+/* input fields */
+.body-right .content .content-header .input-field{
+    width: 50%;
+}
+
+    /* inputs */
+    .body-right .content .content-header .input-field .inputs{
+        display: flex;
+        align-items: center;
+    }
+
+        /* input style */
+        .body-right .content .content-header .input-field .inputs input[type="text"], select {
+            border: 1px solid #bbbbbb;
+            border-radius: 5px;
+            height: 35px;
+            width: 100%;
+            margin-top: 5px;
+            outline: none;
+            padding: 0px 5px;
+            box-sizing: border-box;
+        }
+
+            /* search box */
+            .body-right .content .content-header .input-field .inputs input[type="text"]{
+                width: 300px;
+                padding-left: 40px;
+            }
+
+                /* search icon */
+                .body-right .content .content-header .input-field .inputs .icon-search{
+                    background-image: url('/content/icon/search.png');
+                    height: 24px;
+                    width: 24px;
+                    background-repeat: no-repeat;
+                    background-position: 16px center;
+                }
+
+            /* combobox */
+            .body-right .content .content-header .input-field .inputs select{
+                margin-left: 16px;
+            }
+
+            /* Hiệu ứng trỏ vào label, input */
+            .body-right .content .content-header .input-field .inputs input:hover,select:hover{
+                border: 1px solid #01b075;
+            }

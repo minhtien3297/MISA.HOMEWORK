@@ -1,0 +1,11 @@
+@import url('/css/components/layout/header.css');
+@import url('/css/components/layout/user-info.css');
+
+/* body right */
+.body-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 227px;
+    bottom: 0;
+}

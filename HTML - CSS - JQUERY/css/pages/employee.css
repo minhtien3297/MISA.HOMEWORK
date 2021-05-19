@@ -1,0 +1,50 @@
+@import url('/css/components/content/input-fields.css');
+@import url('/css/components/content/buttons.css');
+@import url('/css/components/content/table.css');
+@import url('/css/components/content/pagination.css');
+@import url('/css/components/content/form.css');
+
+/* content header*/
+.body-right .content .content-header {
+    border-top: 1px solid #bbbbbb;
+    height: 120px;
+    padding: 0px 16px 0px 16px;
+  }
+
+/* content table*/
+.body-right .content .content-table {
+    padding: 0px 14px;
+    height: calc(100vh - 232px);
+    overflow: auto;
+}
+
+/* row và col */
+.b-row{
+  width: 100%;
+  margin-top: 10px;
+}
+
+.b-col{
+  float: left;
+  padding: 0px 10px;
+}
+
+/* content footer*/
+.body-right .content .content-footer {
+  height: 56px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: calc(100% - 226px);
+  display: flex;
+  align-items: center;
+}
+    /* đếm số nhân viên */
+    .body-right .content .content-footer .employee-count{
+        padding: 0px 16px;
+    }
+
+    /* tổng số lượng nhân viên 1 trang */
+    .body-right .content .content-footer .employee-per-page{
+        padding-right: 20px;
+    }

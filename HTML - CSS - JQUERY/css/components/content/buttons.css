@@ -1,0 +1,52 @@
+/* buttons */
+.body-right .content .content-header .buttons{
+    position: absolute;
+    right: 16px;
+    top: 65px;
+}
+
+        /* Thêm nhân viên */
+        .body-right .content .content-header .buttons .button-insert{
+            display: flex;
+            align-items: center;
+            height: 40px;
+            padding-left: 16px;
+            padding-right: 16px;
+            background-color: #019160;
+            border-radius: 4px;
+            color: white;
+            border: 1px solid #dbdeff;
+            outline: none;
+        }
+
+            /* icon add */
+            .body-right .content .content-header .buttons .button-insert .icon-add{
+                background-image: url('/content/icon/add.png');
+                height: 16px;
+                width: 16px;
+                padding: 0px 8px;
+                background-repeat: no-repeat;
+            }
+
+            /* hiệu ứng trỏ vào nút thêm nhân viên*/
+            .body-right .content .content-header .buttons .button-insert:hover{
+                background-color: #2FBE8E;
+            }
+
+        /* reload */
+        .body-right .content .content-header .buttons .button-reload{
+            background-image: url('/content/icon/refresh.png');
+            height: 40px;
+            width: 50px;
+            background-repeat: no-repeat;
+            border: 1px solid #dbdeff;
+            border-radius: 4px;
+            background-position: center;
+            float: right;
+            margin-top: 10px;
+            outline: none;
+        }
+            /* Hiệu ứng trỏ chuột vào nút reload */
+            .body-right .content .content-header .buttons .button-reload:hover{
+                background-color: #DADCE0;
+            }

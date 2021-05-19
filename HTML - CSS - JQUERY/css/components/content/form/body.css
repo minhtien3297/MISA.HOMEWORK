@@ -1,0 +1,46 @@
+.insert-form .form-content .content-body{
+}
+
+     /* avatar */
+     .insert-form .form-content .content-body .body-avatar .avatar{
+        background-image: url('/content/img/default-avatar.jpg');
+        width: 300px;
+        height: 300px;
+        margin: auto;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        border-radius: 50%;
+    }
+
+    /* avatar description */
+    .insert-form .form-content .content-body .body-avatar .avatar-des{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .insert-form .form-content .content-body .body-avatar .avatar-des span{
+        font-weight: bold;
+        display:block;
+    }
+
+    /* input */
+    .insert-form .form-content .content-body input,select{
+        border: 1px solid #bbbbbb;
+        border-radius: 5px;
+        height: 35px;
+        width: 100%;
+        margin-top: 5px;
+        outline: none;
+        padding: 0px 5px;
+        box-sizing: border-box;
+    }
+
+        /* Hiệu ứng trỏ vào label, input */
+        .insert-form .form-content .content-body input:hover,select:hover{
+            border: 1px solid #01b075;
+        }
+
+        .insert-form .form-content .content-body input, label{
+            display: block;
+        }

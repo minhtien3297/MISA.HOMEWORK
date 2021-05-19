@@ -1,0 +1,56 @@
+.insert-form .form-content .content-footer{
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    background-color: #E9EBEE;
+    width: 100%;
+    border-radius: 5px;
+}
+
+    /* Vị trí các nút */
+    .insert-form .form-content .content-footer .buttons{
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        display: flex;
+    }
+
+    /* Định dạng các button */
+    .insert-form .form-content .content-footer button{
+        height: 40px;
+        padding-left: 16px;
+        padding-right: 16px;
+        background-color: #E9EBEE;
+        border-radius: 4px;
+        outline: none;
+        border: 1px solid #E9EBEE;
+    }
+
+    /* Nút hủy */
+    .insert-form .form-content .content-footer .cancel-button{
+        color: black;
+    }
+
+    /* Hiệu ứng trỏ vào nút hủy*/
+    .insert-form .form-content .content-footer .cancel-button:hover{
+        background-color: #DADCE0;
+    }
+
+    /* Nút lưu */
+    .insert-form .form-content .content-footer .save-button{
+        display: flex;
+        align-items: center;
+        margin-left: 16px;
+        background-color: #019160;
+        color: white;
+    }
+
+        /* Floppy disk icon */
+        .insert-form .form-content .content-footer .save-button .icon{
+            padding-right: 8px;
+        }
+
+        /* Hiệu ứng trỏ chuột vào nút lưu */
+        .insert-form .form-content .content-footer .save-button:hover{
+            background-color: #2FBE8E;
+        }

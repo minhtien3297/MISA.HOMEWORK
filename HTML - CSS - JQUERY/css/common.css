@@ -1,0 +1,38 @@
+﻿@import url('/css/layouts/body-left.css');
+@import url('/css/layouts/body-right.css');
+
+body {
+    font-family: MISA-Regular, MISA-Bold, MISA-Italic;
+    font-size: 13px;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+}
+
+.text-align-right{
+    text-align: right!important;
+}
+
+.text-align-center{
+    text-align: center!important;
+}
+
+.highlight{
+    background-color: lightgray!important;
+}
+
+/*font links*/
+@font-face {
+    font-family: 'MISA-Regular';
+    src: url('../../content/font/GoogleSans-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'MISA-Bold';
+    src: url('../../content/font/GoogleSans-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'MISA-Italic';
+    src: url('../../content/font/GoogleSans-Italic.otf') format('opentype');
+}

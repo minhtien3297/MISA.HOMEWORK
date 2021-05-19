@@ -1,0 +1,399 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" translate="no" />
+    <title>Phần mềm quản lý nhà hàng Cuk Cuk</title>
+
+    <!-- css Links -->
+    <link href="/css/common.css" rel="stylesheet" />
+    <link href="/css/pages/employee.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="body-left">
+      <div class="side-bar">
+        <div class="toggle"></div>
+        <div class="logo"></div>
+      </div>
+
+      <div class="menu">
+        <!-- Tổng quan -->
+        <a class="menu-item" href="#">
+          <div class="icon overview"></div>
+          <div class="item-name">Tổng quan</div>
+        </a>
+
+        <!-- Báo cáo -->
+        <a class="menu-item" href="#">
+          <div class="icon report"></div>
+          <div class="item-name">Báo cáo</div>
+        </a>
+
+        <!-- Danh mục khách hàng -->
+        <a class="menu-item" href="/pages/customer.html">
+          <div class="icon employee-list"></div>
+          <div class="item-name">Danh sách khách hàng</div>
+        </a>
+
+        <!-- Danh mục nhân viên  -->
+        <a class="menu-item" href="/pages/employee.html">
+          <div class="icon employee-list"></div>
+          <div class="item-name">Danh sách nhân viên</div>
+        </a>
+
+        <!-- Thiết lập hệ thống -->
+        <a class="menu-item" href="#">
+          <div class="icon setting"></div>
+          <div class="item-name">Thiết lập hệ thống</div>
+        </a>
+      </div>
+    </div>
+
+    <div class="body-right">
+      <div class="header">
+        <!-- dropdown-->
+        <div class="dropdown">
+          <!-- dropdown button -->
+          <div class="dropbtn">
+            <h3>Nhà hàng Biển Đông</h3>
+            <p><i class="arrow-down"></i></p>
+          </div>
+
+          <!-- dropdown content -->
+          <div class="dropdown-content">
+            <h3>Nhà hàng 1</h3>
+            <h3>Nhà hàng 2</h3>
+            <h3>Nhà hàng 3</h3>
+          </div>
+        </div>
+
+        <!-- user info -->
+        <div class="user-info">
+          <!-- avatar -->
+          <div class="user-info-item">
+            <img class="avatar" src="/content/icon/avatar-default.png" />
+          </div>
+
+          <!-- username -->
+          <div class="user-info-item"><h4>Đào Minh Tiến</h4></div>
+
+          <!-- option icon -->
+          <div class="user-info-item">
+            <img class="option" src="/content/icon/option.png" />
+          </div>
+        </div>
+      </div>
+
+      <!-- content -->
+      <div class="content">
+        <!-- content header -->
+        <div class="content-header">
+          <!-- content header input field -->
+          <div class="input-field">
+            <h2>Danh sách nhân viên</h2>
+
+            <!-- inputs -->
+            <div class="inputs">
+              <!-- search box -->
+              <input
+                type="text"
+                name="search"
+                class="icon-search"
+                placeholder="Tìm kiếm theo tên, số hồ sơ"
+              />
+
+              <!-- Phòng ban combobox -->
+              <select name="room">
+                <option>Tất cả phòng ban</option>
+                <option>Phòng 1</option>
+                <option>Phòng 2</option>
+                <option>Phòng 3</option>
+              </select>
+
+              <!-- Vị trí combobox -->
+              <select name="position">
+                <option>Tất cả vị trí</option>
+                <option>Trưởng phòng</option>
+                <option>Phó phòng</option>
+                <option>Nhân viên</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- content header buttons -->
+          <div class="buttons">
+            <!-- Thêm nhân viên -->
+            <button id="button-insert" class="button-insert" type="button">
+              <div class="icon-add"></div>
+              <div class="btn-text">Thêm nhân viên</div>
+            </button>
+
+            <!-- Reload -->
+            <button class="button-reload" type="button"></button>
+          </div>
+        </div>
+
+        <!-- content table -->
+        <div class="content-table">
+          <table id="tblEmployee">
+            <thead>
+              <tr>
+                <th>Mã nhân viên</th>
+                <th>Họ và tên</th>
+                <th>Giới tính</th>
+                <th>Ngày sinh</th>
+                <th>Điện thoại</th>
+                <th>Email</th>
+                <th>Chức vụ</th>
+                <th>Phòng ban</th>
+                <th class="text-align-right">Mức lương</th>
+                <th class="text-align-center">Tình trạng công việc</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+
+        <hr style="margin: 0px 14px" />
+
+        <!-- content footer -->
+        <div class="content-footer">
+          <div class="employee-count">Hiển thị 1-20/1000 nhân viên</div>
+
+          <!-- pagination -->
+          <div class="pagination">
+            <!-- button first page-->
+            <a href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-chevrons-left"
+              >
+                <polyline points="11 17 6 12 11 7"></polyline>
+                <polyline points="18 17 13 12 18 7"></polyline></svg
+            ></a>
+
+            <!-- button prev page -->
+            <a href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-chevron-left"
+              >
+                <polyline points="15 18 9 12 15 6"></polyline></svg
+            ></a>
+
+            <a class="page" href="#">1</a>
+            <a class="page active" href="#">2</a>
+            <a class="page" href="#">3</a>
+            <a class="page" href="#">4</a>
+            <a class="page" href="#">5</a>
+            <a class="page" href="#">6</a>
+
+            <!-- button next page -->
+            <a href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-chevron-right"
+              >
+                <polyline points="9 18 15 12 9 6"></polyline></svg
+            ></a>
+
+            <!-- button last page -->
+            <a href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-chevrons-right"
+              >
+                <polyline points="13 17 18 12 13 7"></polyline>
+                <polyline points="6 17 11 12 6 7"></polyline></svg
+            ></a>
+          </div>
+
+          <!-- Tổng số nhân viên 1 trang -->
+          <div class="employee-per-page">20 nhân viên/trang</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- form insert khách hàng -->
+    <div id="insert-form" class="insert-form insert-form-hide">
+      <!-- Nền tối -->
+      <div class="form-model"></div>
+
+      <!-- content -->
+      <div class="form-content">
+        <!-- header -->
+        <div class="content-header">
+          <div class="content-title">Thông tin nhân viên</div>
+
+          <!-- nút thoát -->
+          <button id="clsButton" class="content-close-button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="gray"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-x"
+            >
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+
+        <!-- body -->
+        <div class="content-body">
+          <div class="b-row">
+            <!-- avatar -->
+            <div class="b-col">
+              <div class="body-avatar">
+                <div class="avatar"></div>
+
+                <!-- avatar description -->
+                <div class="avatar-des">
+                  Vui lòng chọn ảnh có định dạng
+                  <span>.jpg, .jpeg, .png, .gif</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- inputs -->
+            <div class="b-col">
+              <div class="b-row">
+                <div class="b-col">
+                  <!-- Mã nhân viên-->
+                  <div class="b-row">
+                    <label
+                      >Mã nhân viên <span style="color: red">(*)</span>:</label
+                    >
+                    <input type="text" class="EmployeeCode" />
+                  </div>
+
+                  <!-- Điện thoại -->
+                  <div class="b-row">
+                    <label>Điện thoại:</label>
+                    <input type="text" class="PhoneNumber" />
+                  </div>
+
+                  <!-- Giới tính-->
+                  <div class="b-row">
+                    <label class="radio">Giới tính:</label>
+                    <select
+                      name="gender"
+                      style="margin-bottom: 0px"
+                      class="Gender"
+                    >
+                      <option value="Nam">Nam</option>
+                      <option value="Nữ">Nữ</option>
+                      <option value="Khác">Khác</option>
+                    </select>
+                  </div>
+
+                  <!-- Ngày sinh -->
+                  <div class="b-row">
+                    <label>Ngày sinh:</label>
+                    <input type="date" class="DateOfBirth" />
+                  </div>
+
+                  <!-- Mức lương -->
+                  <div class="b-row">
+                    <label>Mức lương:</label>
+                    <input type="text" class="Salary" />
+                  </div>
+                </div>
+
+                <div class="b-col">
+                  <!-- Họ và tên -->
+                  <div class="b-row">
+                    <label
+                      >Họ và tên <span style="color: red">(*)</span>:</label
+                    >
+                    <input type="text" class="FullName" />
+                  </div>
+
+                  <!-- Chức vụ -->
+                  <div class="b-row">
+                    <label>Chức vụ:</label>
+                    <input type="text" class="PositionName" />
+                  </div>
+
+                  <!-- Phòng ban -->
+                  <div class="b-row">
+                    <label>Phòng ban:</label>
+                    <input type="text" class="DepartmentName" />
+                  </div>
+
+                  <!-- email -->
+                  <div class="b-row">
+                    <label>Email:</label>
+                    <input type="text" class="Email" />
+                  </div>
+
+                  <!-- tình trạng công việc -->
+                  <div class="b-row">
+                    <label>Tình trạng công việc:</label>
+                    <input type="checkbox" class="workStatus" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- footer -->
+        <div class="content-footer">
+          <div class="buttons">
+            <!-- Nút hủy -->
+            <button class="cancel-button">HỦY</button>
+
+            <!-- Nút lưu -->
+            <button class="save-button">
+              <div class="icon">&#128427;</div>
+              <div class="btn-text">LƯU</div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- javascript link -->
+    <script src="/lib/jquery-3.6.0.min.js"></script>
+    <script src="/js/pages/employee.js"></script>
+  </body>
+</html>

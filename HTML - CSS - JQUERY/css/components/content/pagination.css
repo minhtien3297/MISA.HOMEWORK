@@ -1,0 +1,27 @@
+/* pagination */
+.body-right .content .content-footer .pagination{
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+    /* pagination page */
+    .body-right .content .content-footer .pagination a {
+        color: black;
+        float: left;
+        padding: 8px 14px;
+        text-decoration: none;
+        margin: 0px 5px;
+    }
+
+    /* Hiệu ứng page được chọn */
+    .body-right .content .content-footer .pagination .page.active {
+        background-color: #019160;
+        color: white;
+        border-radius: 50%;
+    }
+
+    /* Page không được chọn */
+    .body-right .content .content-footer .pagination .page:not(active) {
+        background-color: #ddd;
+        border-radius: 50%;
+    }

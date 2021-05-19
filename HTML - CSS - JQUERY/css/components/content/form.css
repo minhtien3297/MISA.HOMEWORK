@@ -1,0 +1,33 @@
+@import url('/css/components/content/form/header.css');
+@import url('/css/components/content/form/body.css');
+@import url('/css/components/content/form/footer.css');
+
+.insert-form{
+}
+
+    /* Nền tối */
+    .insert-form .form-model{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: black;
+        opacity: .4;
+    }
+
+    /* content */
+    .insert-form .form-content{
+        position: absolute;
+        bottom: calc(50% - 250px);
+        right: calc(50% - 400px);
+        height: 500px;
+        width: 800px;
+        border-radius: 5px;
+        background-color: #FFFFFF;
+    }
+
+/* Ẩn form insert */
+.insert-form-hide{
+    display: none;
+}

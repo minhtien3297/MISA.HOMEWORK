@@ -1,0 +1,115 @@
+@font-face{
+  font-family: 'Regular';
+  src: url('./font/GoogleSans-Regular.otf') format('opentype');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  font-family: "Regular";
+}
+
+.container {
+  padding-top: 10%;
+  padding-left: 40%;
+}
+
+  /* Combobox */
+  .ComboBox {
+    position: relative;
+  }
+
+    /* Ẩn phần select mặc định */
+    .ComboBox select {
+      display: none;
+    }
+
+      /* option được chọn và các option còn lại */
+      .select-selected, .select-items div {
+        border: 1px solid #BBBBBB;
+        width: 30%;
+        height: 40px;
+        display:flex;
+        align-items: center;
+        user-select: none;
+      }
+
+      /* option được chọn */
+      .select-selected{
+        border: 2px solid #BBBBBB;
+        border-radius: 4px;
+        padding: 8px 16px;
+
+        /* Mũi tên xuống */
+        background-image: url('./img/keyboard-down-arrow-1780093-1518654.webp');
+        background-position: 95% 50%;
+        background-repeat: no-repeat;
+        background-size: 30px;
+        /* border-left: 2px solid #bbbbbb;
+        color:#bbbbbb; */
+      }
+
+      /* Chuyển viền đỏ và thông báo lỗi khi nhập sai */
+      .select-error{
+        outline-color:#F65454 !important;
+      }
+
+      /* các option còn lại */
+      .select-items div{
+        color: #000000;
+        padding: 8px 0px 8px 36px;
+        width: 29.5%;
+        cursor: pointer;
+      }
+
+      /* Nền xám khi trỏ vào các option */
+      .select-items div:hover{
+        background-color: #E9EBEE;
+      }
+
+      /* danh sách option */
+      .select-items {
+        position: relative;
+        top: 100%;
+        left: 0;
+        right: 0;
+        z-index: 99;
+      }
+
+      /* tạo viền xanh khi nhấn chọn combobox */
+      .select-selected.select-active,.select-active:after{
+        outline-color: #019160;
+      }
+
+      .select-active:after{
+        color:#019160;
+      }
+
+      /* ẩn select */
+      .select-hide {
+        display: none;
+      }
+
+      /* Nền xanh của option đã chọn */
+      .highlight-selected {
+        border-color: #019160;
+        background-color:#019160;
+        color: white!important;
+      }
+
+      /* Dấu tick ở option đã chọn */
+      .highlight-selected:before{
+        content:'L';
+        -webkit-transform: scaleX(-1) rotate(-35deg);
+        transform: scaleX(-1) rotate(-35deg);
+        display:inline-block;
+        vertical-align: top;
+        line-height: 1em;
+        width: 1em;
+        height:1em;
+        text-align: center;
+        position: absolute;
+        left: 10px;
+      }
